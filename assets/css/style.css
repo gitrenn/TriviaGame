@@ -1,0 +1,37 @@
+.title-custom {
+    width: 100%;
+    border-radius: none;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.jbt-custom {
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.row1-custom {
+    border: 1px solid red;
+}
+
+.ch-custom {
+    text-align: center;
+}
+
+.card-custom {
+    margin-top: 20px;
+}
+
+.body {
+    background-image: url("../images/theme.jpg");
+}
+
+#text-center {
+    text-align: center;
+}
+
+.md-body-custom {
+    text-align: left;
+}
