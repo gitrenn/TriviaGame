@@ -32,10 +32,11 @@ $(document).ready(function(){
             // create a p for each option
             var option = $("<p>").text(questionArray[i].options[j]);
             // add each option to the card body div
-            //option_div.text(questionArray[i].options[j]);
+            
             newDiv.append(option);
             option_div.append(newDiv);
             console.log(questionArray[i].options[j]);
+            console.log(option);
        }
        card_div.append(option_div);
 //         var newDiv = $("<div>").attr("id", "title");  
